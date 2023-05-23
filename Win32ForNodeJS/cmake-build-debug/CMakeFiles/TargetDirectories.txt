@@ -1,0 +1,4 @@
+C:/Users/gogop/CLionProjects/Win32ForNodeJS/cmake-build-debug/CMakeFiles/Win32ForNode.dir
+C:/Users/gogop/CLionProjects/Win32ForNodeJS/cmake-build-debug/CMakeFiles/build_addon.dir
+C:/Users/gogop/CLionProjects/Win32ForNodeJS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gogop/CLionProjects/Win32ForNodeJS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

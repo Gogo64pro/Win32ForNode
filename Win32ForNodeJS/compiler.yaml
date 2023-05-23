@@ -1,0 +1,12 @@
+compilers:
+  - description: Node-Gyp Clean
+    match-compiler-exe: node-gyp
+    match-args: ['clean']
+
+  - description: Node-Gyp Rebuild
+    match-compiler-exe: node-gyp
+    match-args: ['rebuild']
+
+targets:
+  - name: Clean and Rebuild
+    compilers: [Node-Gyp Clean, Node-Gyp Rebuild]
