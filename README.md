@@ -61,3 +61,5 @@ Links
 [Window Styles](https://learn.microsoft.com/en-us/windows/win32/winmsg/window-styles)
 
 [Extended Window Styles](https://learn.microsoft.com/en-us/windows/win32/winmsg/extended-window-styles)
+
+[Discord](https://discord.gg/2N35YgkRay)
