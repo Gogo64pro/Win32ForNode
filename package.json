@@ -1,0 +1,13 @@
+{
+  "name": "addon",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "node-gyp build | findstr /c:\"LNK1103: debugging information corrupt; recompile module\" > nul && node-gyp rebuild\n"
+  },
+  "gypfile": true,
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
