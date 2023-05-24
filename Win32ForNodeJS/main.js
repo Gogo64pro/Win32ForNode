@@ -1,16 +1,14 @@
 const addon = require('./build/Release/addon.node');
 // Create a window
-const parent = 0; // Set the parent window handle to 0 for a top-level window
+const parent = 0; 
 const x = 100;
 const y = 100;
 const width = 400;
 const height = 300;
-const title = 'My Doggy DOG';
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+const title = 'Name';
 
-addon.registerClass('HMMMMMMMMMMMMMMMM');
+
+addon.registerClass('classname');
 const windowHandle = addon.createWindow(
     {
         parent,
@@ -19,8 +17,8 @@ const windowHandle = addon.createWindow(
         width,
         height,
         title,
-        class: 'HMMMMMMMMMMMMMMMM',
-        style: addon.Styles.OverLappedWindow | addon.Styles.ExtendedStaticEdge
+        class: 'classname',
+        style: addon.Styles.OverLappedWindow
     }
 );
 console.log('Window handle:', windowHandle);
@@ -30,7 +28,7 @@ const childWindowHandle = addon.createWindow({
     y:10,
     width:200,
     height:150,
-    title:'deez',
+    title:'button',
     class: 'BUTTON',
     style: addon.Styles.ChildWindow|addon.Styles.Border
 })
@@ -38,23 +36,9 @@ addon.showWindow(childWindowHandle)
 console.log('Child Window handle:', childWindowHandle);
 
 console.log(addon)
-// Show the windowon)
+
 addon.showWindow(windowHandle);
 
-// // Run the message loop
 
 addon.runMessageLoop();
 
-class Window {
-    constructor(id) {
-        this.id = id;
-    }
-
-    get() {
-        return id;
-    }
-
-    somemethod() {
-        console.log('methoding')
-    }
-}
