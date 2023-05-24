@@ -52,8 +52,10 @@ addon.getErr() // Returns the last error in Number format
 addon.runMessageLoop()  
 //Runs the Win32 message loop. Program crashes if you try to interact with a window without running message loop  
 //The program locks up after this command, soon you will be able to do action while running message loop. Make sure not to have async functions running in the background
+
+
 Links
 -----
-[Error Codes]: https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes
-[Window Styles]: https://learn.microsoft.com/en-us/windows/win32/winmsg/window-styles
-[Extended Window Styles]: https://learn.microsoft.com/en-us/windows/win32/winmsg/extended-window-styles
+[Error Codes](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes)
+[Window Styles](https://learn.microsoft.com/en-us/windows/win32/winmsg/window-styles)
+[Extended Window Styles](https://learn.microsoft.com/en-us/windows/win32/winmsg/extended-window-styles)
