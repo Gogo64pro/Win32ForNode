@@ -57,5 +57,7 @@ addon.runMessageLoop()
 Links
 -----
 [Error Codes](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes)
+
 [Window Styles](https://learn.microsoft.com/en-us/windows/win32/winmsg/window-styles)
+
 [Extended Window Styles](https://learn.microsoft.com/en-us/windows/win32/winmsg/extended-window-styles)
